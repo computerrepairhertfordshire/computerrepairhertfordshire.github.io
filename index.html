@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Services</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#home" class="logo">PC Solutions</a>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section home-section">
+    <h1>Welcome to PC Solutions</h1>
+    <p>Your trusted partner for computer repairs and custom builds.</p>
+    <a href="#contact" class="cta-button">Get in Touch</a>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section services-section">
+    <h2>Our Services</h2>
+    <div class="services-list">
+      <div class="service-item">
+        <h3>Computer Repair</h3>
+        <p>Get your computer running like new. From hardware repairs to software troubleshooting.</p>
+        <span>£15 per hour</span>
+      </div>
+      <div class="service-item">
+        <h3>Custom PC Builds</h3>
+        <p>Build your dream computer with expert guidance. Just provide the parts, and we'll do the rest.</p>
+        <span>£200 + computer parts</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact-section">
+    <h2>Contact Us</h2>
+    <p>Have questions? Fill out the form below, and we'll get back to you shortly.</p>
+    <form id="contactForm">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Computer Fix Hertfordshire. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
